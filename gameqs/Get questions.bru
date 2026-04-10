@@ -1,0 +1,20 @@
+meta {
+  name: Get questions
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseUrl}}/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "question" : "New Question",
+    "answer" : "New Answer",
+    "keywords" :["uef"]
+  
+  }
+}

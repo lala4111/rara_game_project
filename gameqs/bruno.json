@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "game.qs",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
